@@ -9,23 +9,23 @@ st.title('prediksi penyakit liver')
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    Age = st.text_input('Umur')
+    Age = st.number_input('Umur')
 with col2:
-    Total_Bilirubin = st.text_input('Jumlah Bilirubin')
+    Total_Bilirubin = st.number_input('Jumlah Bilirubin')
 with col3:
-    Direct_Bilirubin = st.text_input('Bilirubin Yang Tidak Terkonjungsi')
+    Direct_Bilirubin = st.number_input('Bilirubin Yang Tidak Terkonjungsi')
 with col1:
-    Alkaline_Phosphotase = st.text_input('Jumlah Kadar ALP')
+    Alkaline_Phosphotase = st.number_input('Jumlah Kadar ALP')
 with col2:
-    Alamine_Aminotransferase = st.text_input('Jumlah Enzim Dalam Darah')
+    Alamine_Aminotransferase = st.number_input('Jumlah Enzim Dalam Darah')
 with col3:
-    Aspartate_Aminotransferase = st.text_input('Jumlah AST')
+    Aspartate_Aminotransferase = st.number_input('Jumlah AST')
 with col1:
-    Total_Protiens = st.text_input('Jumlah Protein')
+    Total_Protiens = st.number_input('Jumlah Protein')
 with col2:
-    Albumin = st.text_input('Jumlah Protein Pada Darah')
+    Albumin = st.number_input('Jumlah Protein Pada Darah')
 with col3:
-    Albumin_and_Globulin_Ratio = st.text_input('Rasio Albumin dan Globulin ')
+    Albumin_and_Globulin_Ratio = st.number_input('Rasio Albumin dan Globulin ')
 
 liver_diagnosis =''
 
